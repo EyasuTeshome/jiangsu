@@ -71,6 +71,19 @@
     text-decoration: underline;
 }
 
+.footer {
+    text-align: center;
+    color: antiquewhite;
+    background-color: #64968c;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 10px
+}
+
 @media screen and (max-width: 600px) {
     .card {
         margin-left: 5px;
