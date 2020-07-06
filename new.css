@@ -84,6 +84,14 @@
     padding-top: 10px
 }
 
+.first {
+    display: flex;
+    text-justify: justify;
+    flex-wrap: wrap;
+}
+
+.pic {}
+
 @media screen and (max-width: 600px) {
     .card {
         margin-left: 5px;
