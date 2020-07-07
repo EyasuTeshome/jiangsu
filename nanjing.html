@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/modal1.css">
     <link rel="stylesheet" href="new.css">
-    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="modal1.css">
     <title>Document</title>
 </head>
 
@@ -63,14 +64,11 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
                 </p>
-                <p>
-                    Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
-                </p>
+
             </div>
             <div class="card__info">
-
                 <div>
-                    <a href="#modal" class="card__link">Read more...</a>
+                    <button id="modal-btn" class="button">Click Here</button>
                 </div>
             </div>
         </div>
@@ -81,14 +79,10 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
                 </p>
-                <p>
-                    Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
-                </p>
             </div>
             <div class="card__info">
-
                 <div>
-                    <a href="./" class="card__link">Read more...</a>
+                    <a href="" id="modal-btn" class="card__link">Read more...</a>
                 </div>
             </div>
         </div>
@@ -149,7 +143,7 @@
     </div>
 
     <!--Modal-->
-    <div class="modal" id="modal">
+    <div class="modal1" id="modal">
         <div class="modal__content">
             <a href="#" class="modal__close">&times;</a>
             <h2 class="modal__heading">Desi Developer</h2>
@@ -161,20 +155,44 @@
         </div>
     </div>
 
+    <!--Modal 2-->
 
-    <!--Footer-->
-    <footer class="footer">
-        <p>Jiangsu Tourism</p>
-    </footer>
+    <body>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
 
-</body>
+        <div id="my-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Modal Header</h2>
+                </div>
+                <div class="modal-body">
+                    <p>This is my modal</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab.</p>
+                </div>
+                <div class="modal-footer">
+                    <h3>Modal Footer</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Footer-->
+        <footer class="footer">
+            <p>Jiangsu Tourism</p>
+        </footer>
+
+        <!-- Scripts -->
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="new.js"></script>
+
+
+    </body>
 
 </html>
