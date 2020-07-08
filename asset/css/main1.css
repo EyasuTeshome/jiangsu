@@ -184,7 +184,6 @@ table {
 .row:after,
 .row:before {
     content: '';
-    display: block;
     clear: both;
     height: 0;
 }
@@ -1536,7 +1535,6 @@ pre {
 }
 
 pre code {
-    display: block;
     line-height: 1.75;
     padding: 1rem 1.5rem;
     overflow-x: auto;
@@ -1696,7 +1694,6 @@ button,
     border-radius: 4px;
     border: 0;
     cursor: pointer;
-    display: inline-block;
     font-weight: 300;
     height: 2.85rem;
     line-height: 2.95rem;
@@ -1728,7 +1725,6 @@ input[type="reset"].fit,
 input[type="button"].fit,
 button.fit,
 .button.fit {
-    display: block;
     margin: 0 0 1rem 0;
     width: 100%;
 }
@@ -1869,7 +1865,6 @@ form {
 }
 
 label {
-    display: block;
     font-size: 0.9rem;
     font-weight: 700;
     margin: 0 0 1rem 0;
@@ -1888,7 +1883,6 @@ textarea {
     border: none;
     border: solid 1px;
     color: inherit;
-    display: block;
     outline: 0;
     padding: 0 1rem;
     text-decoration: none;
@@ -1905,7 +1899,6 @@ textarea:invalid {
 
 .select-wrapper {
     text-decoration: none;
-    display: block;
     position: relative;
 }
 
@@ -1920,7 +1913,6 @@ textarea:invalid {
 
 .select-wrapper:before {
     content: '\f078';
-    display: block;
     height: 2.75rem;
     line-height: 2.75rem;
     pointer-events: none;
@@ -1932,7 +1924,7 @@ textarea:invalid {
 }
 
 .select-wrapper select::-ms-expand {
-    display: none;
+    nnnnnn: none;
 }
 
 input[type="text"],
@@ -1952,7 +1944,6 @@ input[type="radio"] {
     -webkit-appearance: none;
     -ms-appearance: none;
     appearance: none;
-    display: block;
     float: left;
     margin-right: -2rem;
     opacity: 0;
@@ -1964,7 +1955,6 @@ input[type="checkbox"]+label,
 input[type="radio"]+label {
     text-decoration: none;
     cursor: pointer;
-    display: inline-block;
     font-size: 1rem;
     font-weight: 300;
     padding-left: 2.4rem;
@@ -1987,7 +1977,6 @@ input[type="radio"]+label:before {
     border-radius: 4px;
     border: solid 1px;
     content: '';
-    display: inline-block;
     height: 1.65rem;
     left: 0;
     line-height: 1.58125rem;
@@ -2106,10 +2095,6 @@ input[type="radio"]:focus+label:before {
 .gallery {
     width: 100%;
     margin: 0;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
     -moz-flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -2164,14 +2149,13 @@ input[type="radio"]:focus+label:before {
 }
 
 .icon>.label {
-    display: none;
+    nnnnnn: none;
 }
 
 
 /* Image */
 
 .image {
-    display: inline-block;
     position: relative;
 }
 
@@ -2181,9 +2165,7 @@ input[type="radio"]:focus+label:before {
     border-bottom: #000 1px solid;
 }
 
-.image img {
-    display: block;
-}
+.image img {}
 
 .image.left,
 .image.right {
@@ -2208,7 +2190,6 @@ input[type="radio"]:focus+label:before {
 }
 
 .image.fit {
-    display: block;
     margin: 0 0 2rem 0;
     width: 100%;
 }
@@ -2218,7 +2199,6 @@ input[type="radio"]:focus+label:before {
 }
 
 .image.main {
-    display: block;
     margin: 0 0 3rem 0;
     width: 100%;
 }
@@ -2272,7 +2252,7 @@ ul.icons {
 }
 
 ul.icons li {
-    display: inline-block;
+    nnnnnn: inline-block;
     padding: 0 1rem 0 0;
 }
 
@@ -2291,7 +2271,7 @@ ul.actions {
 }
 
 ul.actions li {
-    display: inline-block;
+    nnnnnn: inline-block;
     padding: 0 1rem 0 0;
     vertical-align: middle;
 }
@@ -2305,7 +2285,7 @@ ul.actions.small li {
 }
 
 ul.actions.vertical li {
-    display: block;
+    nnnnnn: block;
     padding: 1rem 0 0 0;
 }
 
@@ -2326,7 +2306,7 @@ ul.actions.vertical.small li:first-child {
 }
 
 ul.actions.fit {
-    display: table;
+    nnnnnn: table;
     margin-left: -1rem;
     padding: 0;
     table-layout: fixed;
@@ -2334,7 +2314,7 @@ ul.actions.fit {
 }
 
 ul.actions.fit li {
-    display: table-cell;
+    nnnnnn: table-cell;
     padding: 0 0 0 1rem;
 }
 
@@ -2357,7 +2337,7 @@ ul.actions.fit.small li {
     }
     ul.actions li {
         padding: 1rem 0 0 0;
-        display: block;
+        nnnnnn: block;
         text-align: center;
         width: 100%;
     }
@@ -2384,7 +2364,7 @@ dl {
 }
 
 dl dt {
-    display: block;
+    nnnnnn: block;
     font-weight: 700;
     margin: 0 0 1rem 0;
 }
@@ -2435,10 +2415,10 @@ header p {
 /*Spotlight */
 
 .spotlight {
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
+    nnnnnn: -moz-flex;
+    nnnnnn: -webkit-flex;
+    nnnnnn: -ms-flex;
+    nnnnnn: flex;
     -moz-flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -2483,10 +2463,10 @@ header p {
 .spotlight.alt {
     background: #1e1f23;
     color: rgba(255, 255, 255, 0.25);
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
+    nnnnnn: -moz-flex;
+    nnnnnn: -webkit-flex;
+    nnnnnn: -ms-flex;
+    nnnnnn: flex;
     -moz-flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -2528,10 +2508,10 @@ header p {
 
 @media screen and (max-width: 980px) {
     .spotlight {
-        display: -moz-flex;
-        display: -webkit-flex;
-        display: -ms-flex;
-        display: flex;
+        nnnnnn: -moz-flex;
+        nnnnnn: -webkit-flex;
+        nnnnnn: -ms-flex;
+        nnnnnn: flex;
         -moz-flex-wrap: wrap;
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -2556,10 +2536,10 @@ header p {
         width: 100%;
     }
     .spotlight.alt {
-        display: -moz-flex;
-        display: -webkit-flex;
-        display: -ms-flex;
-        display: flex;
+        nnnnnn: -moz-flex;
+        nnnnnn: -webkit-flex;
+        nnnnnn: -ms-flex;
+        nnnnnn: flex;
         -moz-flex-wrap: wrap;
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -2702,7 +2682,7 @@ table.alt tbody tr td {
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
-    display: block;
+    nnnnnn: block;
     top: 0;
     left: 0;
     height: 100%;
@@ -2885,4 +2865,15 @@ table.alt tbody tr td {
 p {
     text-align: center;
     text-justify: justify;
+}
+
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: auto;
+    gap: 50px;
+    font-family: sans-serif;
+    padding-top: 30px;
 }
